@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./Lab-1/ex04/QuanLy",
+        "./Lab-1/ex04/QuanLy",
+        "./Lab-1/ex04/QuanLy"
+    ]
+}
