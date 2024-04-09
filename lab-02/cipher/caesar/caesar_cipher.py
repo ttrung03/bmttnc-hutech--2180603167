@@ -1,10 +1,10 @@
-from cipher.caersar import ALPHABET
+from cipher.caesar import ALPHABET
 
 class CaesarCipher:
     def __init__(self):
         self.alphabet = ALPHABET
         
-    def encrypt(self, text: str, key: int) -> str:
+    def encrypt_text(self, text: str, key: int) -> str:
         alphabet_len = len(self.alphabet)
         text = text.upper()
         encrypted_text = []
